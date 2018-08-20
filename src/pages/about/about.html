@@ -1,0 +1,45 @@
+
+
+<ion-content class="getbackground">
+        <div class="jb-logo">
+                <img src="assets/imgs/logo.png"/>
+        </div>
+     <div class="jb-head">
+         <p class="jb-text-first">GIVE</p>
+         <p class="jb-text-sec">We welcome and  appreciate your financial support.</p>
+     </div> 
+     <div class="jb-inner">
+         <p class="jb-dollar">$</p>
+            <ion-item>
+                <ion-input type="number" value="" placeholder="0"></ion-input>
+            </ion-item>
+         <p>FREQUENCY</p>
+                        <ion-scroll  scrollX="true" scroll-avatar>
+                            <ion-avatar>
+                                    <ion-segment [(ngModel)]="choose">
+                                            <ion-segment-button class="scroll-item" value="oneTime">
+                                            One-Time
+                                            </ion-segment-button>
+                                            <ion-segment-button class="scroll-item" value="weekly" >
+                                            Weekly
+                                            </ion-segment-button>
+                                            <ion-segment-button class="scroll-item" value="monthly">
+                                            Monthly
+                                            </ion-segment-button>
+                                            <ion-segment-button class="scroll-item" value="Yearly" >
+                                            Yearly
+                                            </ion-segment-button>
+                                        </ion-segment>
+        
+                            </ion-avatar>
+                        </ion-scroll>
+            <!-- <ion-scroll scrollX="true" direction="x">
+                <ion-toolbar no-border-top>
+                 
+                </ion-toolbar>
+            </ion-scroll> -->
+            <p class="jb-center">Enter a dollar amounyt to make a gift.</p>
+            <button ion-button full>Give Online Today</button>
+
+        </div>
+</ion-content>

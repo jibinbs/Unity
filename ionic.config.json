@@ -1,0 +1,7 @@
+{
+  "name": "Unity",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,41 @@
+page-eventinner {
+    ion-header{
+        background-image:none !important
+    }
+    .jb-header{
+        padding: 10px 10px;
+        color: #1998b1;
+        text-align: center;
+    }
+    p{
+        padding: 0px 15px;
+        color:#1998b1;
+    }
+    .jb-text{
+        color:#929292;
+        font-size: 1.7rem;
+        line-height: 1.5;
+    }
+    ion-card{
+        margin: 0px !important;
+        width: 100% !important;
+    }
+    ion-icon {
+        padding-right: 15px;
+    }
+    .toolbar-background{
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        .toolbar-title{
+            color: white !important;
+        }
+        
+        }
+
+    .jb-content{
+        background: white;
+        top: 7vh;
+        position: relative;
+    }
+}

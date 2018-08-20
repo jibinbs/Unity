@@ -1,0 +1,95 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content  class="getbackground">
+<!--       
+    <ion-scroll scrollX="true" direction="x">
+        <ion-card>
+          <ion-card-content>
+            <ion-card-title>
+              hhdhdfhfiijf
+              </ion-card-title>
+            <button ion-item (click)="openDetailActivity(item)">            
+              More info
+              <ion-icon name="arrow-forward" item-right color="primary"></ion-icon>
+            </button>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-content>
+              <ion-card-title>
+                hhdhdfhfiijf
+                </ion-card-title>
+              <button ion-item (click)="openDetailActivity(item)">            
+                More info
+                <ion-icon name="arrow-forward" item-right color="primary"></ion-icon>
+              </button>
+            </ion-card-content>
+          </ion-card>
+          <ion-card>
+              <ion-card-content>
+                <ion-card-title>
+                  hhdhdfhfiijf
+                  </ion-card-title>
+                <button ion-item (click)="openDetailActivity(item)">            
+                  More info
+                  <ion-icon name="arrow-forward" item-right color="primary"></ion-icon>
+                </button>
+              </ion-card-content>
+            </ion-card>
+      </ion-scroll> -->
+      <div class="jb-logo">
+        <img src="assets/imgs/logo.png"/>
+      </div>
+      <ion-slides slidesPerView= 1 centeredSlides = true  loop  >
+          <ion-slide #slider>
+              <ion-card>
+                  <img src="assets/imgs/Layer5.png"/>
+                </ion-card>
+               
+          </ion-slide>
+          <ion-slide #slider>
+              <ion-card>
+                  <img src="assets/imgs/list2.png"/>
+                </ion-card>
+               
+          </ion-slide>
+          <ion-slide #slider>
+              <ion-card>
+                  <img src="assets/imgs/Layer12.png"/>
+                </ion-card>
+               
+          </ion-slide>
+          <ion-slide #slider >
+              <ion-card>
+                  <img src="assets/imgs/list1.jpg"/>
+                </ion-card>
+               
+          </ion-slide>
+          <ion-slide #slider>
+              <ion-card>
+                  <img src="assets/imgs/list3.jpg"/>
+                </ion-card>
+          </ion-slide>
+      </ion-slides>
+      <ion-row style="height: 10vh;
+      margin-top: 10px;">
+        <ion-col style="text-align:center" (click)="playaudio('AudioplayerPage')">
+            <img style="height:100%;" src="assets/imgs/audio.png"/>
+           <p style="    margin: 0px;
+           font-size: 3.5vw;
+           color: white;
+           padding: 0px 35px;">Watch the Latest Service</p> 
+        </ion-col>
+        <ion-col style="text-align:center">
+            <img style="height:100%;" src="assets/imgs/play.png"/>
+            <p style="    margin: 0px;
+            font-size: 3.5vw;
+            color: white;
+            padding: 0px 35px;">Listen to the Latest Service</p>
+        </ion-col>
+      </ion-row>
+</ion-content>

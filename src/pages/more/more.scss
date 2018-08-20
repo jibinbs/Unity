@@ -1,0 +1,76 @@
+page-more {
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  font-size: 1.8rem !important;
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  font-size: 1.8rem !important;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
+  .jb-button{
+    min-width: 15vh;
+    min-height: 15vh;
+    height: 20vh;
+    width: 20vh;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .jb-button.activated
+  {
+    background-color: rgba(241, 241, 241, 0.91) !important;
+  }
+  .jb-icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    width: 8vh;
+    height: 8vh;
+    display: block;
+  }
+  .jb-text{
+    color: #1998b1 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.1rem !important;
+    transform: translate(-50%, 75%);
+  }
+}

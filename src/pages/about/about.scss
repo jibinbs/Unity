@@ -1,0 +1,156 @@
+page-about {
+    .jb-logo{
+        text-align: center;
+        padding-top: 30px;
+        img{
+            width: 25vw;
+        }
+    }
+    .jb-head{
+        position: relative;
+        top: 10px;
+        .jb-text-first{
+            text-align: center;
+            font-size: 18vw;
+            color: white;
+            margin: 0px;
+        }
+        .jb-text-sec{
+            text-align: center;
+            color: white;
+            margin: 0px;
+            font-size: 4vw;
+            padding: 0vw 15vw;
+        }
+    }
+    .jb-inner{
+        height: 65vh;
+        position: relative;
+        background: white;
+        top: 5vh;
+        padding: 15px;
+        p{
+            color: #78c7da;
+        }
+        button{
+            background: #a0c581;
+            width: 80vw;
+            margin: auto;
+        }
+        button.activated{
+            background: rgba(160, 197, 129, 0.8784313725490196) !important;
+        }
+    }
+    .jb-dollar{
+        position: absolute;
+        top: 5px;
+        left: 40vw;
+        color: black  !important;
+        font-size: large;
+    }
+    // .jb-scroll-cat{
+    //     ion-scroll[scrollX] {
+    //         white-space: nowrap;
+    //         height: 98px;
+    //         overflow: hidden;
+        
+    //         .scroll-item {
+    //          display: inline-block;
+    //         padding: 5px;
+    //         /* margin-left: 10px; */
+    //         /* margin-right: 10px; */
+    //         width: 95px;
+    //           p{
+    //               font-size: 1.3rem;
+    //               font-family: 'lato-Bold';
+    //           }
+    //         }
+    //         ion-avatar img{
+    //             margin: auto;
+    //           width: 65px !important;
+    //           height: 65px !important;
+    //         }
+    //         p{
+    //             text-align: center;
+    //             margin-top: 5px;
+    //             margin-bottom: 5px;
+    //             font-family: 'lato-Bold';
+    //             color: black !important;
+    //         }
+    //       }
+         
+    //       ion-scroll[scroll-avatar]{
+    //         height: 98px;
+    //         margin-top: 6px;
+    //       }
+        
+    //       /* Hide ion-content scrollbar */
+    //       ::-webkit-scrollbar{
+    //         display:none;
+    //       }
+    //     }
+    ion-scroll{
+        height: 60px !important;
+    }
+        ion-segment {
+            display: block;
+            white-space: nowrap;
+            font-size: 0;
+            overflow: auto;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #78c7da;
+            border-radius: 17px;
+            // height: 40px !important;
+            
+            &::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+                display: none;
+            }
+        
+            ion-segment-button.segment-button {
+                display: inline-block;
+                min-width: 100px;
+                width: auto;
+                color: #49adc5 !important;
+                height: 40px !important ;
+                line-height: 40px !important;
+                border: none;
+                border-width: 0px !important;
+                border-style: solid;
+                border-color: #78c7da;
+            }
+            ion-segment-button.segment-button.segment-activated {
+                color: #78c7da !important;
+                border-radius: 17px !important;
+                height: 40px !important;
+                line-height: 40px !important;
+                border-width: 1px !important; 
+                border-style: solid !important;
+                border-color: #78c7da !important;
+                background-color: transparent !important;
+            }
+        }
+        ion-item{
+            padding-left: 0px !important;
+            width: 5vh  !important;
+            margin: auto  !important;
+            .item-inner {
+                padding-right: 0px !important;
+                border-bottom: 0.55px solid #c8c7cc;
+            }
+            input{
+                min-height: 40px;
+                width: 100%  !important;
+                margin: 0px  !important;
+                text-align: center;
+                font-size: 40px;
+                color: #78c7da;
+                // @include placeholder {
+                //     color: #78c7da;
+                //  }
+            }
+        }
+       
+}

@@ -1,0 +1,59 @@
+<!--
+  Generated template for the MorePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content class="getbackground">
+    <ion-scroll scrollY="true" style="min-height: 400px;
+    max-height: 1000px;
+    height: 74vh;
+    top: 17vh;">
+    <ion-row>
+      <ion-col col-6 text-center (click)="gotopage('MediaListPage')">
+          <button ion-button class="jb-button">
+            <ion-icon class="jb-icons" name="unity-media"></ion-icon>
+           <p class="jb-text">Media Libaray</p> 
+          </button>
+      </ion-col>
+      <ion-col col-6 text-center (click)="gotopage('AccountPage')">
+          <button ion-button class="jb-button">
+            <ion-icon class="jb-icons" name="unity-account"></ion-icon>
+            <p class="jb-text">My Account</p>
+
+          </button>
+        </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col col-6 text-center (click)="gotopage('AccountPage')">
+            <button ion-button class="jb-button">
+                <ion-icon class="jb-icons" name="unity-prayer"></ion-icon>
+                <p class="jb-text">prayer Request</p>
+            </button>
+        </ion-col>
+        <ion-col col-6 text-center (click)="gotopage('AccountPage')">
+            <button ion-button class="jb-button">
+                <ion-icon class="jb-icons" name="unity-service"></ion-icon>
+            <p class="jb-text">Services</p>
+            </button>
+          </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col col-6 text-center (click)="gotopage('AccountPage')">
+              <button ion-button class="jb-button">
+                <ion-icon class="jb-icons" name="unity-word"></ion-icon>
+                <p class="jb-text">Daily Word</p>
+              </button>
+          </ion-col>
+          <ion-col col-6 text-center  (click)="gotopage('AccountPage')">
+              <button ion-button class="jb-button">
+                <ion-icon class="jb-icons" name="unity-map"></ion-icon>
+                <p class="jb-text">Map / Contact</p>
+              </button>
+            </ion-col>
+        </ion-row>
+</ion-scroll>
+</ion-content>

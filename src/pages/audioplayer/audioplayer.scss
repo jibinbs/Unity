@@ -1,0 +1,101 @@
+page-audioplayer {
+    ion-toolbar{
+        top: 0vh;
+        position: relative;
+
+   .toolbar-background{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    }
+   .segment-activated{
+    color: #1180d1  !important;
+    background-color: white  !important;
+    }
+    .segment-button{
+        border-right: 1px solid white !important;
+        color: white;
+        height: 4vh;
+        max-width: 300px !important;
+        height: 4vh  !important;
+        font-size: 1.7vh !important;
+        line-height: 4vh !important;
+        border-bottom: none !important;
+    }
+    ion-segment{
+        width: 80%;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid white;
+        height: 4vh;
+        margin: auto;
+    }
+}
+ion-header{
+    .toolbar-background{
+        background: transparent;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+    .jb-logo{
+        text-align: center;
+        padding-top: 30px;
+        img{
+            width: 25vw;
+        }
+    }
+.jb-main{
+    top: 1vh;
+    position: relative;
+    background: white;
+    height: 75vh;
+    min-height: 400px;
+    .avatar {
+        display: block;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-image: url('https://s-media-cache-ak0.pinimg.com/originals/82/8d/9c/828d9ce86050123bd1ec659604fab945.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+        margin: 0 auto;
+        border: 2px solid #f1f1f1;
+        box-shadow: 0 0 5px #999;
+    }
+
+    .play-pause-btn {
+        display: inline-block;
+        vertical-align: middle;
+        width: 55px;
+        height: 55px;
+        background: transparent;
+        box-shadow: none !important;
+    }
+
+    .skip-btn {
+        display: inline-block;
+        vertical-align: middle;
+        width: 55px;
+        height: 55px;
+        background: transparent;
+        box-shadow: none !important;
+    }
+    p,h1{
+        color:#1998b1;
+        margin:5px;
+    }
+   .jb-avathar{
+       text-align: center;
+       padding-top: 25px;
+       border-radius: 15px;
+       overflow: hidden;
+       img{
+           width: 20vh;
+           border-radius: 15px;
+       }
+   }
+}
+}
