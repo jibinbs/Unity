@@ -1,7 +1,7 @@
 page-events {
     ion-toolbar{
-        top: 15vh;
-        position: relative;
+        // top: 15vh;
+        // position: relative;
 
    .toolbar-background{
     background: transparent !important;
@@ -35,8 +35,8 @@ ion-card{
     margin: 0px !important;
 }
 .jb-postion{
-    top: 16vh;
-    position: relative;
+    // top: 16vh;
+    // position: relative;
 }
 .jb-img-inner{
     width: 100%;
@@ -56,10 +56,17 @@ ion-card{
 .card-title {
     color: #1998b1 !important;
     font-size: 5.4vw !important;
-    padding: 3px 0 !important;
+    padding: 5px 0px 0px 0px !important; 
 }
 ion-scroll{
-    height: 70vh;
+    height: 75vh;
     min-height: 300px;
+}
+.jb-logo{
+    text-align: center;
+    padding-top: 30px;
+    img{
+        width: 25vw;
+    }
 }
 }
